@@ -126,3 +126,34 @@ nav ul li a {
     font-weight: 900;
     margin: 40px 0px;
 }
+
+
+/* quote section */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color3);
+    height: 70vh;
+}
+
+.quote h3 {
+    font-size: 36px;
+    font-style: italic;
+    color: var(--color2);
+    font-weight: 300;
+}
+
+.quote h3, .author {
+    width: 58%;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 80px;
+    font-size: 22px;
+    font-weight: 600;
+}
