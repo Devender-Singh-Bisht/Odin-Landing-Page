@@ -157,3 +157,38 @@ nav ul li a {
     font-size: 22px;
     font-weight: 600;
 }
+
+
+/* action section */
+
+.action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: var(--color1);
+}
+
+.action-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    height: 50%;
+    border-radius: 8px;
+    background-color: var(--color4);
+    color: var(--color1);
+}
+
+.action-left h5 {
+    font-size: 24px;
+}
+
+.action-right button {
+    background-color: var(--color4);
+    color: var(--color1);
+    border: 2px solid var(--color1);
+    border-radius: 8px;
+    padding: 5px 24px;
+    font-size: 18px;
+}
