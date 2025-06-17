@@ -192,3 +192,16 @@ nav ul li a {
     padding: 5px 24px;
     font-size: 18px;
 }
+
+
+/* footer */
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    background-color: var(--color2);
+    color: var(--color1);
+}
